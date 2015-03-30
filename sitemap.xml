@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://katyf.github.io/CS_blog/blog/2015/03/30/sets/</loc>
+    <lastmod>2015-03-30T18:18:14-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://katyf.github.io/CS_blog/blog/2015/03/30/queues-vs-stacks/</loc>
+    <lastmod>2015-03-30T18:08:26-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://katyf.github.io/CS_blog/blog/archives/</loc>
+  </url>
+  <url>
+    <loc>http://katyf.github.io/CS_blog/</loc>
+  </url>
+  <url>
+    <loc>http://katyf.github.io/CS_blog/blog/categories/data/</loc>
+  </url>
+  <url>
+    <loc>http://katyf.github.io/CS_blog/blog/categories/structures/</loc>
+  </url>
+</urlset>

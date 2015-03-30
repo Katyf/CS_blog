@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Structures | CompSci 101]]></title>
+  <link href="http://katyf.github.io/CS_blog/blog/categories/structures/atom.xml" rel="self"/>
+  <link href="http://katyf.github.io/CS_blog/"/>
+  <updated>2015-03-30T19:43:43-04:00</updated>
+  <id>http://katyf.github.io/CS_blog/</id>
+  <author>
+    <name><![CDATA[Katy]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sets, Associative Arrays, & Arrays]]></title>
+    <link href="http://katyf.github.io/CS_blog/blog/2015/03/30/sets/"/>
+    <updated>2015-03-30T18:18:14-04:00</updated>
+    <id>http://katyf.github.io/CS_blog/blog/2015/03/30/sets</id>
+    <content type="html"><![CDATA[<p>Q: What is a set?</p>
+
+<p>A set is just a container for data with a few specific properties. The first being that data cannot be duplicated in a set (eg., a set cannot contain two 5&rsquo;s). An example of a set is a vendiagram. If there are 15 students in class one and 13 in class two, you have 27 students. However if 3 students are taking both classes, there cannot be duplicate students, and so there are actually only 24 students in total. Unlike a queue or a stack, sets are unordered. Every time you print out a set, it will be in a different order. Another way sets differ from most other collection data types is that instead of adding and retrieiving items from a set, you would more likely test whether a value is a member of a set. Most programming languages have a built in set class.</p>
+
+<p>Q: What is an Array?</p>
+
+<p>By its most basic definition, array is just a block of memory. More specifically, an array is an ordered list which composed of a number of elements which are 0-indexed (a 0-index means that the first element in an array is referred to being in position 0, rather than position 1). Unlike queues or stacks, arrays have random access, meaning that any element in the array can be accessed at any time, regardless of position. Because arrays are ordered, they are very useful for sorting items and information. Arrays can Arrays are a fundamental part of programming languages, and are used to implement many other data structures. Arrays can be static (of a fixed size), or dynamic. A dynamic array allows elements to be added or removed. To see the worst-time case scenarios for common array operations, visit: <a href="http://bigocheatsheet.com/.">http://bigocheatsheet.com/.</a>
+Arrays can also be multidimensional (think an array of arrays). An example of this would be a 3x3 tic-tac-toe board with squares at positions:
+[0,0] [0,1] [0,2]
+[1,0] [1,1] [1,2]
+[2,0] [2,1] [2,2]
+An abstract array is known as an associative array.</p>
+
+<p>Q: What do you mean, associative array?</p>
+
+<p>An associative array is a composed of a collection of key-value pairs. It is also known as a dictionary. Associative arrays allow addition and removal of key-value pairs, reassignment of existing values on a key, and retrival of values associated with a given key. Here is a simple example of an associative array named people, with different values for the keys name and age:</p>
+
+<p>people = {[name: katy, age: 22], [name: Joe, age: 25]}</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Queues vs. Stacks]]></title>
+    <link href="http://katyf.github.io/CS_blog/blog/2015/03/30/queues-vs-stacks/"/>
+    <updated>2015-03-30T18:08:26-04:00</updated>
+    <id>http://katyf.github.io/CS_blog/blog/2015/03/30/queues-vs-stacks</id>
+    <content type="html"><![CDATA[<p>Q: Queues and stacks are both types of data structures in computer science. So what is the difference between a queue and a stack?</p>
+
+<p>First come, first serve. A queue is a collection of items (nodes) which are kept in a static order. Pricipal operations performed on a queue are enqueing, or adding to the end of the list, and dequeing, or removing from the front of the list. A queue is a FIFO (first in, first out) data structure, meaning that operations are performed on nodes based on the order they came into the queue. Much like a checkout line, the first item (or person) is the queue is the first thing to be taken out of the queue.</p>
+
+<p>A stack is much like a queue, in that it is a collection of items kept in order. However, instead of a FIFO order of operations, stacks are a LIFO (last in, first out) data type. In other words, nodes are added to the end of a stack, but are also removed from the end of the stack.</p>
+
+<p>Q: How are queues and stacks used?</p>
+
+<p>Because of their strict usage pattern, queues and stacks help manage data in more particular and specific ways, contrary to the more flexible array or list. They have limited access, versus an array&rsquo;s random access.</p>
+]]></content>
+  </entry>
+  
+</feed>
