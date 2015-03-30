@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[CompSci 101]]></title>
+  <link href="http://katyf.github.io/CS_blog/atom.xml" rel="self"/>
+  <link href="http://katyf.github.io/CS_blog/"/>
+  <updated>2015-03-30T18:02:48-04:00</updated>
+  <id>http://katyf.github.io/CS_blog/</id>
+  <author>
+    <name><![CDATA[Katy]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
