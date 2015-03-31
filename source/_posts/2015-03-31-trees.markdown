@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Trees"
+date: 2015-03-31 16:21:06 -0400
+comments: true
+categories: Data Structures
+---
+
+## Tuesday
+
+Write an essay describing trees (overall), binary trees and tries; what they are, how they are different, why we use them. It may be useful to include pseudocode, code, analogies, diagrams and references to external sources.
+
+## Q: So what's a tree?
+Trees are another type of data structure in computer science. Unlike arrays or sets, trees have a heirarchical structure where a root or parent node has branches containing child sub-trees. It is much like a family tree, beginning with an anscestor, who has children... who have children... and so on. Two common types of trees are
+
+## Q: How are binary trees and tries different?
+
+A binary trees is a specific type of tree that restricts each node's number of children so that each node can only have two child nodes. A binary tree is structured such that when adding a node, the default position is the parent node's left branch. That is unless the value of the new node is larger than that of the parent, and then the new node is positioned on the parent's right branch.
+
+Tries are another type of tree with an ordered structure. Tries are used to store associative arrays or dynamic sets of data. In a trie, keys of the array/set are not stored within nodes, as with binary trees, but are instead defined by the node's **position** in the tree structure. The root node typically contains an empty string as its key, and all the children of each node contain a prefix created from the string of their parent's key. Note that while these keys are often strings, they do not necessarily have to be. Tries are a faster retrieval than binary trees, and can also be used in place of a hash table.
+

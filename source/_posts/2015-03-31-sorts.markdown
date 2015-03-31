@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Sorts"
+date: 2015-03-31 16:21:47 -0400
+comments: true
+categories: Algorithms
+---
+## Wednesday
+
+Write an essay describing the sorts that we have practiced (bubble, merge, insertion, quick, selection); what they are, how they are different, why we use them. It may be useful to include pseudocode, code, analogies, diagrams and references to external sources.
