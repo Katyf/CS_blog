@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Sets, Associative Arrays, & Arrays - CompSci 101</title>
+  <title>Trees - CompSci 101</title>
   <meta name="author" content="Katy">
 
   
-  <meta name="description" content="Q: What is a set? A set is just a container for data with a few specific properties. The first being that data cannot be duplicated in a set (eg., a &hellip;">
+  <meta name="description" content="Tuesday Write an essay describing trees (overall), binary trees and tries; what they are, how they are different, why we use them. It may be useful &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://katyf.github.io/CS_blog/blog/2015/03/30/sets/">
+  <link rel="canonical" href="http://katyf.github.io/CS_blog/blog/2015/03/31/trees/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="CompSci 101" type="application/atom+xml">
@@ -68,7 +68,7 @@
   
   <header>
     
-      <h1 class="entry-title">Sets, Associative Arrays, & Arrays</h1>
+      <h1 class="entry-title">Trees</h1>
     
     
       <p class="meta">
@@ -77,31 +77,26 @@
 
 
 
-<time class='entry-date' datetime='2015-03-30T18:18:14-04:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>6:18 pm</span></time>
+<time class='entry-date' datetime='2015-03-31T16:21:06-04:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2015</span></span> <span class='time'>4:21 pm</span></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Q: What is a set?</p>
+<div class="entry-content"><h2>Tuesday</h2>
 
-<p>A set is just a container for data with a few specific properties. The first being that data cannot be duplicated in a set (eg., a set cannot contain two 5&rsquo;s). An example of a set is a vendiagram. If there are 15 students in class one and 13 in class two, you have 27 students. However if 3 students are taking both classes, there cannot be duplicate students, and so there are actually only 24 students in total. Unlike a queue or a stack, sets are unordered. Every time you print out a set, it will be in a different order. Another way sets differ from most other collection data types is that instead of adding and retrieiving items from a set, you would more likely test whether a value is a member of a set. Most programming languages have a built in set class.</p>
+<p>Write an essay describing trees (overall), binary trees and tries; what they are, how they are different, why we use them. It may be useful to include pseudocode, code, analogies, diagrams and references to external sources.</p>
 
-<p>Q: What is an Array?</p>
+<h2>Q: So what&rsquo;s a tree?</h2>
 
-<p>By its most basic definition, array is just a block of memory. More specifically, an array is an ordered list which composed of a number of elements which are 0-indexed (a 0-index means that the first element in an array is referred to being in position 0, rather than position 1). Unlike queues or stacks, arrays have random access, meaning that any element in the array can be accessed at any time, regardless of position. Because arrays are ordered, they are very useful for sorting items and information. Arrays can Arrays are a fundamental part of programming languages, and are used to implement many other data structures. Arrays can be static (of a fixed size), or dynamic. A dynamic array allows elements to be added or removed. To see the worst-time case scenarios for common array operations, visit: <a href="http://bigocheatsheet.com/.">http://bigocheatsheet.com/.</a>
-Arrays can also be multidimensional (think an array of arrays). An example of this would be a 3x3 tic-tac-toe board with squares at positions:
-[0,0] [0,1] [0,2]
-[1,0] [1,1] [1,2]
-[2,0] [2,1] [2,2]
-An abstract array is known as an associative array.</p>
+<p>Trees are another type of data structure in computer science. Unlike arrays or sets, trees have a heirarchical structure where a root or parent node has branches containing child sub-trees. It is much like a family tree, beginning with an anscestor, who has children&hellip; who have children&hellip; and so on. Two common types of trees are</p>
 
-<p>Q: What do you mean, associative array?</p>
+<h2>Q: How are binary trees and tries different?</h2>
 
-<p>An associative array is a composed of a collection of key-value pairs. It is also known as a dictionary. Associative arrays allow addition and removal of key-value pairs, reassignment of existing values on a key, and retrival of values associated with a given key. Here is a simple example of an associative array named people, with different values for the keys name and age:</p>
+<p>A binary trees is a specific type of tree that restricts each node&rsquo;s number of children so that each node can only have two child nodes. A binary tree is structured such that when adding a node, the default position is the parent node&rsquo;s left branch. That is unless the value of the new node is larger than that of the parent, and then the new node is positioned on the parent&rsquo;s right branch.</p>
 
-<p>people = {[name: katy, age: 22], [name: Joe, age: 25]}</p>
+<p>Tries are another type of tree with an ordered structure. Tries are used to store associative arrays or dynamic sets of data. In a trie, keys of the array/set are not stored within nodes, as with binary trees, but are instead defined by the node&rsquo;s <strong>position</strong> in the tree structure. The root node typically contains an empty string as its key, and all the children of each node contain a prefix created from the string of their parent&rsquo;s key. Note that while these keys are often strings, they do not necessarily have to be. Tries are a faster retrieval than binary trees, and can also be used in place of a hash table.</p>
 </div>
 
 
@@ -117,7 +112,7 @@ An abstract array is known as an associative array.</p>
 
 
 
-<time class='entry-date' datetime='2015-03-30T18:18:14-04:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>6:18 pm</span></time>
+<time class='entry-date' datetime='2015-03-31T16:21:06-04:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2015</span></span> <span class='time'>4:21 pm</span></time>
       
 
 <span class="categories">
@@ -131,7 +126,7 @@ An abstract array is known as an associative array.</p>
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://katyf.github.io/CS_blog/blog/2015/03/30/sets/" data-via="" data-counturl="http://katyf.github.io/CS_blog/blog/2015/03/30/sets/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://katyf.github.io/CS_blog/blog/2015/03/31/trees/" data-via="" data-counturl="http://katyf.github.io/CS_blog/blog/2015/03/31/trees/" >Tweet</a>
   
   
   
@@ -140,10 +135,10 @@ An abstract array is known as an associative array.</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/03/30/queues-vs-stacks/" title="Previous Post: Queues vs. Stacks">&laquo; Queues vs. Stacks</a>
+        <a class="basic-alignment left" href="/blog/2015/03/30/sets/" title="Previous Post: Sets, Associative Arrays, & Arrays">&laquo; Sets, Associative Arrays, & Arrays</a>
       
       
-        <a class="basic-alignment right" href="/blog/2015/03/31/trees/" title="Next Post: Trees">Trees &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2015/03/31/sorts/" title="Next Post: Sorts">Sorts &raquo;</a>
       
     </p>
   </footer>

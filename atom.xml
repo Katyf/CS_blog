@@ -4,7 +4,7 @@
   <title><![CDATA[CompSci 101]]></title>
   <link href="http://katyf.github.io/CS_blog/atom.xml" rel="self"/>
   <link href="http://katyf.github.io/CS_blog/"/>
-  <updated>2015-03-30T19:43:43-04:00</updated>
+  <updated>2015-03-31T17:12:15-04:00</updated>
   <id>http://katyf.github.io/CS_blog/</id>
   <author>
     <name><![CDATA[Katy]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Functional &amp; Object Oriented Programming]]></title>
+    <link href="http://katyf.github.io/CS_blog/blog/2015/03/31/functional-and-object-oriented-programming/"/>
+    <updated>2015-03-31T16:22:27-04:00</updated>
+    <id>http://katyf.github.io/CS_blog/blog/2015/03/31/functional-and-object-oriented-programming</id>
+    <content type="html"><![CDATA[<h2>Thursday</h2>
+
+<p>Write an essay describing the paradigms of <em>functional programming</em> and <em>object oriented programming</em>; what they are, how they are different, strengths/weakenesses, why we use them. It may be useful to include pseudocode, code, analogies, diagrams and references to external sources.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sorts]]></title>
+    <link href="http://katyf.github.io/CS_blog/blog/2015/03/31/sorts/"/>
+    <updated>2015-03-31T16:21:47-04:00</updated>
+    <id>http://katyf.github.io/CS_blog/blog/2015/03/31/sorts</id>
+    <content type="html"><![CDATA[<h2>Wednesday</h2>
+
+<p>Write an essay describing the sorts that we have practiced (bubble, merge, insertion, quick, selection); what they are, how they are different, why we use them. It may be useful to include pseudocode, code, analogies, diagrams and references to external sources.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Trees]]></title>
+    <link href="http://katyf.github.io/CS_blog/blog/2015/03/31/trees/"/>
+    <updated>2015-03-31T16:21:06-04:00</updated>
+    <id>http://katyf.github.io/CS_blog/blog/2015/03/31/trees</id>
+    <content type="html"><![CDATA[<h2>Tuesday</h2>
+
+<p>Write an essay describing trees (overall), binary trees and tries; what they are, how they are different, why we use them. It may be useful to include pseudocode, code, analogies, diagrams and references to external sources.</p>
+
+<h2>Q: So what&rsquo;s a tree?</h2>
+
+<p>Trees are another type of data structure in computer science. Unlike arrays or sets, trees have a heirarchical structure where a root or parent node has branches containing child sub-trees. It is much like a family tree, beginning with an anscestor, who has children&hellip; who have children&hellip; and so on. Two common types of trees are</p>
+
+<h2>Q: How are binary trees and tries different?</h2>
+
+<p>A binary trees is a specific type of tree that restricts each node&rsquo;s number of children so that each node can only have two child nodes. A binary tree is structured such that when adding a node, the default position is the parent node&rsquo;s left branch. That is unless the value of the new node is larger than that of the parent, and then the new node is positioned on the parent&rsquo;s right branch.</p>
+
+<p>Tries are another type of tree with an ordered structure. Tries are used to store associative arrays or dynamic sets of data. In a trie, keys of the array/set are not stored within nodes, as with binary trees, but are instead defined by the node&rsquo;s <strong>position</strong> in the tree structure. The root node typically contains an empty string as its key, and all the children of each node contain a prefix created from the string of their parent&rsquo;s key. Note that while these keys are often strings, they do not necessarily have to be. Tries are a faster retrieval than binary trees, and can also be used in place of a hash table.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sets, Associative Arrays, & Arrays]]></title>

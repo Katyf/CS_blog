@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://katyf.github.io/CS_blog/blog/2015/03/31/functional-and-object-oriented-programming/</loc>
+    <lastmod>2015-03-31T16:22:27-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://katyf.github.io/CS_blog/blog/2015/03/31/sorts/</loc>
+    <lastmod>2015-03-31T16:21:47-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://katyf.github.io/CS_blog/blog/2015/03/31/trees/</loc>
+    <lastmod>2015-03-31T16:21:06-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://katyf.github.io/CS_blog/blog/2015/03/30/sets/</loc>
     <lastmod>2015-03-30T18:18:14-04:00</lastmod>
   </url>
@@ -19,5 +31,8 @@
   </url>
   <url>
     <loc>http://katyf.github.io/CS_blog/blog/categories/structures/</loc>
+  </url>
+  <url>
+    <loc>http://katyf.github.io/CS_blog/blog/categories/algorithms/</loc>
   </url>
 </urlset>

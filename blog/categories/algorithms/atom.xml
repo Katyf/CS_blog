@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Algorithms | CompSci 101]]></title>
+  <link href="http://katyf.github.io/CS_blog/blog/categories/algorithms/atom.xml" rel="self"/>
+  <link href="http://katyf.github.io/CS_blog/"/>
+  <updated>2015-03-31T17:12:15-04:00</updated>
+  <id>http://katyf.github.io/CS_blog/</id>
+  <author>
+    <name><![CDATA[Katy]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sorts]]></title>
+    <link href="http://katyf.github.io/CS_blog/blog/2015/03/31/sorts/"/>
+    <updated>2015-03-31T16:21:47-04:00</updated>
+    <id>http://katyf.github.io/CS_blog/blog/2015/03/31/sorts</id>
+    <content type="html"><![CDATA[<h2>Wednesday</h2>
+
+<p>Write an essay describing the sorts that we have practiced (bubble, merge, insertion, quick, selection); what they are, how they are different, why we use them. It may be useful to include pseudocode, code, analogies, diagrams and references to external sources.</p>
+]]></content>
+  </entry>
+  
+</feed>
